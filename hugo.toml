@@ -3,6 +3,9 @@ languageCode = "zh-cn"
 title = "我的博客"
 theme = "hugo-theme-stack"
 
+
+mainSections = ["posts"]
+
 [[menu.main]]
     name   = "首页"
     url    = "/"
