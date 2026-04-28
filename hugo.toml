@@ -1,4 +1,4 @@
 baseURL = "https://xxxx.work/"
 languageCode = "zh-cn"
 title = "我的博客"
-theme = "hugo-book"
+theme = "hugo-theme-stack"
