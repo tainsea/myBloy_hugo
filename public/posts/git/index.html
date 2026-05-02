@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Git 无法连接 GitHub，开了代理也不行，是因为 Git 没有走代理的流量，需要手动给 Git 配置代理端口。\u200b 这是最常见的问题：系统代理开了，但 Git 默认不读取系统代理设置，它的网络请求走的是自己的通道，所以需要单独告诉 Git 该用哪个端口。\n第一步：确认你的代理端口\r打开你的梯子软件，找到本地监听端口，通常在软件设置里叫&quot;本地端口&quot;、&ldquo;HTTP 端口&quot;或&quot;混合端口&rdquo;。常见默认值：\nClash：7890 V2RayN：10809 Shadowsocks：1080\n记住这个端口号，下面要用。\n第二步：给 Git 配置代理\r打开 PowerShell，执行（把 7890 换成你实际的端口）：\ngit config --global http.proxy http://127.0.0.1:7890 git config --global https.proxy http://127.0.0.1:7890 配置完后再试一次：\ngit push 如果还是不行，试试 SSH 方式推送 方法请自行百度。\n">
 <title>Git 无法连接 GitHub解决办法​</title>
 
 
-<link rel="canonical" href="https://xxxx.work/posts/git/">
+<link rel="canonical" href="http://localhost:1313/posts/git/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="/scss/style.min.da0a47745c772461565af5d69513ef353c6f5f4f29c2848b606f995359e50b38.css"><meta property='og:title' content="Git 无法连接 GitHub解决办法\u200b">
 <meta property='og:description' content="Git 无法连接 GitHub，开了代理也不行，是因为 Git 没有走代理的流量，需要手动给 Git 配置代理端口。\u200b 这是最常见的问题：系统代理开了，但 Git 默认不读取系统代理设置，它的网络请求走的是自己的通道，所以需要单独告诉 Git 该用哪个端口。\n第一步：确认你的代理端口\r打开你的梯子软件，找到本地监听端口，通常在软件设置里叫&quot;本地端口&quot;、&ldquo;HTTP 端口&quot;或&quot;混合端口&rdquo;。常见默认值：\nClash：7890 V2RayN：10809 Shadowsocks：1080\n记住这个端口号，下面要用。\n第二步：给 Git 配置代理\r打开 PowerShell，执行（把 7890 换成你实际的端口）：\ngit config --global http.proxy http://127.0.0.1:7890 git config --global https.proxy http://127.0.0.1:7890 配置完后再试一次：\ngit push 如果还是不行，试试 SSH 方式推送 方法请自行百度。\n">
-<meta property='og:url' content='https://xxxx.work/posts/git/'>
+<meta property='og:url' content='http://localhost:1313/posts/git/'>
 <meta property='og:site_name' content='我的博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2026-05-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-02T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Git 无法连接 GitHub解决办法\u200b">
@@ -53,11 +53,24 @@
     </button>
 
     <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="http://q.qlogo.cn/headimg_dl?dst_uin=783887917&amp;spec=640&amp;img_type=jpg" 
+                        width="640"
+                        height="640"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+                    <span class="emoji">❤️</span>
+                
+            </figure>
         
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">我的博客</a></h1>
-            <h2 class="site-description"></h2>
+            <h2 class="site-description">Simple is useful.</h2>
         </div>
     </header><ol class="menu" id="main-menu">
         
@@ -305,7 +318,7 @@ git config --global https.proxy http://127.0.0.1:7890
             </main>
         </div>
         
-<script type="text/javascript" src="/ts/main.1ff1e5fdc4e178ed422e50aa407526dc552f26342d729343fded19416194382c.js" defer></script>
+<script type="text/javascript" src="/ts/main.8cd578a1c203893ba45a954dc9d069f25f33746c65c11ee03da3bb74535ffcb0.js" defer></script>
 
 
     </body>

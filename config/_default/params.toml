@@ -15,8 +15,9 @@ SortBy         = "default"
 
 [sidebar]
     compact = true
-    avatar  = ""
-
+    avatar  = "http://q.qlogo.cn/headimg_dl?dst_uin=783887917&spec=640&img_type=jpg"
+    emoji = "❤️"
+    subtitle = "Simple is useful."
 [article]
     headingAnchor = false
     math          = false

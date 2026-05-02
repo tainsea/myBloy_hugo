@@ -3,8 +3,7 @@ locale  = "zh-CN"
 title   = "我的博客"
 theme   = "hugo-theme-stack"
 
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+
 
 [params]
     mainSections = ["posts"]
@@ -22,13 +21,6 @@ theme   = "hugo-theme-stack"
     weight = -90
     [menu.main.params]
         icon = "archives"
-
-[[menu.main]]
-    name   = "搜索"
-    url    = "/search/"
-    weight = -85
-    [menu.main.params]
-        icon = "search"
 
 [[menu.main]]
     name   = "关于"
