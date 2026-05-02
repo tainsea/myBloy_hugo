@@ -30,9 +30,8 @@ title = "我的博客"
 theme = "hugo-theme-stack"
 ```
 关于主题的配置什么的，需要你自己看主题文档，我这边只说明怎么设置主题里的内容怎么更改。
-![alt text](index.png)记住这个文件夹路径，把这个文件夹整体复杂一份粘贴到hugo根目录下
+![主题配置文件](index.png)记住这个文件夹路径，把这个文件夹整体复杂一份粘贴到hugo根目录下
 ![alt text](index-1.png)
-
 ![alt text](index-2.png)
 打开params.toml文件
 ![alt text](index-3.png)
