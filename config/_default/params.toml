@@ -63,8 +63,19 @@ SortBy         = "default"
         caution   = "🚨"
 
 [widgets]
-    homepage = ["search", "archives", "tag-cloud"]
-    page     = ["toc"]
+    [[widgets.homepage]]
+        type    = "search"
+
+    [[widgets.homepage]]
+        type    = "archives"
+        limit   = 5
+
+    [[widgets.homepage]]
+        type    = "tag-cloud"
+        limit   = 10
+
+    [[widgets.page]]
+        type    = "toc"
 
 
 [opengraph.twitter]

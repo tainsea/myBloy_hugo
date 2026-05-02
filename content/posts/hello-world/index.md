@@ -25,7 +25,7 @@ git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-them
 然后打开 hugo.toml，加上主题配置。
 ```
 baseURL = "https://xxxx.work/"
-languageCode = "zh-cn"
+locale = "zh-CN"
 title = "我的博客"
 theme = "hugo-theme-stack"
 ```
