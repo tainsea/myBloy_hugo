@@ -3,8 +3,7 @@ locale = "zh-CN"
 title = "我的博客"
 theme = "hugo-theme-stack"
 
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+
 
 mainSections = ["posts"]
 
