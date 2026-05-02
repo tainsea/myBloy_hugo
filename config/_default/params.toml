@@ -14,7 +14,7 @@ SortBy         = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    compact = false
+    compact = true
     avatar  = ""
 
 [article]
