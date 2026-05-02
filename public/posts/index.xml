@@ -5,11 +5,11 @@
         <description>Recent content in Posts on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Hello World</title>
+        <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Hugo博客搭建部署教程</title>
             <link>http://localhost:1313/posts/hello-world/</link>
-            <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/posts/hello-world/</guid>
-            <description>&lt;p&gt;这是我的第一篇博客文章。&lt;/p&gt;&#xA;</description>
+            <description>&lt;h1 id=&#34;安装hugo&#34;&gt;安装Hugo&#xD;&#xA;&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;    &gt;官方安装教程&lt;/a&gt;&#xA;我这里直接用包管理器安装了，电脑是windows,其他系统请自行参考。&#xA;Winget 是微软官方的免费开源 Windows 包管理器。要安装 Hugo 的扩展版：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget install Hugo.Hugo.Extended&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To uninstall the extended edition of Hugo:&#xA;要卸载 Hugo 的扩展版：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget uninstall --name &amp;#34;Hugo (Extended)&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;安装主题&#34;&gt;安装主题&#xD;&#xA;&lt;/h1&gt;&lt;p&gt;安装之后要选择一个主题，这里用Stack主题&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后打开 hugo.toml，加上主题配置。&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#34;https://xxxx.work/&amp;#34;&#xA;languageCode = &amp;#34;zh-cn&amp;#34;&#xA;title = &amp;#34;我的博客&amp;#34;&#xA;theme = &amp;#34;hugo-theme-stack&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;关于主题的配置什么的，需要你自己看主题文档，我这边只说明怎么设置主题里的内容怎么更改。&#xA;&lt;img alt=&#34;主题配置文件&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;image.png&#34;&gt;记住这个文件夹路径，把这个文件夹整体复杂一份粘贴到hugo根目录下&#xA;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;image-1.png&#34;&gt;&#xA;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;image-2.png&#34;&gt;&#xA;打开params.toml文件&#xA;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;image-3.png&#34;&gt;&#xA;在这里改。&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>
