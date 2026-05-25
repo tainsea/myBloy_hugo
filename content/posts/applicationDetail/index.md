@@ -1,7 +1,7 @@
 ---
-date = '2026-05-25T22:03:07+08:00'
-draft = false
-title = 'SpringBoot项目application常用配置'
+date: '2026-05-25T22:03:07+08:00'
+draft: false
+title: 'SpringBoot项目application常用配置'
 ---
 
 ```
